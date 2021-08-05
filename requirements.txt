@@ -1,0 +1,6 @@
+torchvision==0.9.1+cu111
+numpy==1.18.5
+tqdm==4.46.1
+pandas==1.0.4
+torch==1.8.1+cu111
+matplotlib==3.4.2
