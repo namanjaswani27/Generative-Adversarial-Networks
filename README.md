@@ -6,10 +6,12 @@ Clone the repo and run the following to install all the dependencies:
 
 ## Train GANs:
 1. Set Hyperparameters in config.py as per your need 
+      
+* Best hyperparameters to try:
 
-      1a. Best hyperparameters to try: 	1. `D_STEPS_PER_ITER`, `G_STEPS_PER_ITER`
-                2. `G_SPECTRAL_NORM`, `D_SPECTRAL_NORM`
-                3. `SELF_ATTENTION`		
+      *`D_STEPS_PER_ITER`, `G_STEPS_PER_ITER`
+      *`G_SPECTRAL_NORM`, `D_SPECTRAL_NORM`
+      *`SELF_ATTENTION`
 
 2. Note: if you set `BOOL_PLOT=True`, then it will save generated images after each 'PRINT_FREQ' steps
 
